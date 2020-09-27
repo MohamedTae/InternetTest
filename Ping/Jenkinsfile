@@ -1,0 +1,14 @@
+    
+pipeline {
+
+   agent {label 'Android-Node-4.8.23'}
+   
+   stages {
+       
+       stage('Internet Test'){
+            steps{
+            	echo "Build"
+            	}
+            }
+       }
+   }
